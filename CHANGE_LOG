@@ -1,0 +1,8 @@
+2011-10-27
+发表v0.9.0版本
+1.修正支持memcache bool类型数据
+2.修正create_buff可以创建length=0的bug
+
+2011-10-28
+完善测试用例
+加上对send的返回值检查，防止出现socket lllegal seek(还需要signal(SIGPIPE, SIG_IGN))
